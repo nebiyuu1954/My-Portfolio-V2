@@ -1,0 +1,149 @@
+{
+  "header": {
+    "websiteName": "NebiyuEsaiyas.com",
+    "projects": "Proyectos",
+    "experience": "Experiencia",
+    "skills": "Habilidades",
+    "contact": "Contáctame"
+  },
+  "hero": {
+    "greeting": "HOLA,",
+    "name": "SOY Nebiyu",
+    "text": "Hola, soy desarrollador web y aspirante a diseñador UI/UX especializado en React y Django",
+    "button": "Ver Currículum"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "buttons": {
+      "all": "Todos",
+      "react": "React",
+      "django": "Django"
+    },
+    "projects": [
+      
+      {
+        "name": "Sitio Web de Portafolio Personal v2",
+        "description": "Un sitio web de portafolio moderno construido con React y Vite.",
+        "alt": "Captura de pantalla del portafolio en React",
+        "tech": "react",
+        "image": "/assets/project-images/react/portfolio-2/v2.png",
+        "projectLink": "https://nebiyu-esaiyas.vercel.app/",
+        "codeLink": "https://github.com/nebiyuu1954/My-Portfolio",
+        "docLink": "https://github.com/nebiyuu1954/My-Portfolio/blob/main/README.md",
+        "details": [
+          "Pila Tecnológica: React, Vite, CSS, JavaScript",
+          "Rol: Desarrollador Front-End",
+          "Duración: 1 semana",
+          "Características: Diseño responsivo, soporte multilingüe, implementé soporte para modo claro y oscuro, usé Formik y Yup para validación, usé Email JS para envío, desplegado en Vercel"
+        ]
+      },
+      {
+        "name": "Sitio Web de Portafolio Personal v1",
+        "description": "Un sitio web de portafolio moderno construido con React y Vite.",
+        "alt": "Captura de pantalla del portafolio en React",
+        "tech": "react",
+        "image": "/assets/project-images/react/portfolio-1/v1.png",
+        "projectLink": "https://nebiyu-esaiyas.vercel.app/",
+        "codeLink": "https://github.com/nebiyuu1954/My-Portfolio",
+        "docLink": "https://github.com/nebiyuu1954/My-Portfolio/blob/main/README.md",
+        "details": [
+          "Pila Tecnológica: React, Vite, CSS, JavaScript",
+          "Rol: Desarrollador Front-End",
+          "Duración: 1 semana",
+          "Características: Diseño responsivo, implementé un deslizador de habilidades interactivo, usé Formik y Yup para validación, usé Email JS para envío, desplegado en Vercel"
+        ]
+      },
+      {
+        "name": "Desarrollo de Bot de Telegram (Django)",
+        "description": "Un bot de control de grupos y pagos de Telegram construido con Django con integración de pagos.",
+        "alt": "Captura de pantalla del bot en Django",
+        "tech": "django",
+        "image": "/assets/project-images/django/telegram-bot/bot.jpg",
+        "projectLink": "https://github.com/nebiyuu1954/",
+        "codeLink": "https://github.com/nebiyuu1954/",
+        "docLink": "https://github.com/nebiyuu1954/",
+        "details": [
+          "Pila Tecnológica: Django, Mongo DB, Chapa, Python, Telegram API",
+          "Rol: Desarrollador Backend",
+          "Duración: 3 meses",
+          "Características: Implementé un bot de grupo de Telegram para el sitio web Tigat con restricciones de grupo y reglas para mantener las directrices de la comunidad, integración de pagos con la API de Chapa para pagos de la comunidad, implementé una aplicación web en Telegram para el usuario que obtiene HTML/CSS/JS desde nuestro servidor Django para una interfaz de pago exitosa, implementé clases de prueba para las clases"
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experiencia",
+    "companies": [
+      {
+        "name": "Conquer Agency (Tigat Website)",
+        "jobs": [
+          {
+            "title": "Desarrollador Python Django (Pasantía)",
+            "duration": "04/2024 - 06/2024",
+            "qa": [
+              {
+                "question": "¿Cuál fue tu rol principal en Conquer Agency (Tigat Website)?",
+                "answer": "Fui desarrollador backend Django, construyendo un sistema backend robusto, escalable y eficiente para la gestión de grupos y pagos de la comunidad."
+              },
+              {
+                "question": "¿Qué tecnologías usaste?",
+                "answer": "Usé principalmente Django, Python, con MongoDB para almacenamiento de datos."
+              },
+              {
+                "question": "¿Cuáles fueron tus responsabilidades clave?",
+                "answer": "Implementé clases de Python que se integraron con la API de Telegram, creé reglas de directrices de grupo, integré con Chapa para pagos, escribí clases de prueba con pytest."
+              },
+              {
+                "question": "¿Cuál fue un logro importante?",
+                "answer": "Colaboré exitosamente con un equipo y desarrollé algo que será utilizado por el público."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "DAF ICT",
+        "jobs": [
+          {
+            "title": "Desarrollador Full-Stack",
+            "duration": "Ago 2025 - Presente",
+            "qa": [
+              {
+                "question": "¿Cuál fue tu rol en DAF ICT?",
+                "answer": "Trabajé como desarrollador Full-Stack, colaborando y construyendo proyectos gubernamentales."
+              },
+              {
+                "question": "¿Qué tecnologías estuvieron involucradas?",
+                "answer": "Usé React, Angular, TypeScript, SQL y .NET Core para el desarrollo de APIs."
+              },
+              {
+                "question": "¿Qué tareas manejaste?",
+                "answer": "Integré el frontend con servicios backend, creé un sitio web de un solo producto usando React, colaboré en transformar un sistema de facturación de agua heredado en aplicaciones web modernas."
+              },
+              {
+                "question": "¿Cuál fue un logro clave?",
+                "answer": "Desarrollé el sitio web para el lanzamiento del primer producto de medidor de agua inteligente."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contacto",
+    "workTogether": "Trabajemos Juntos",
+    "message": "¡Estoy emocionado por colaborar en proyectos innovadores! No dudes en contactarme para discutir oportunidades o ideas.",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "getInTouch": "Ponte en Contacto",
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "email": "Tu Correo Electrónico",
+    "subject": "Asunto",
+    "submit": "Enviar Mensaje"
+  },
+  "footer": {
+    "copyright": "© {year} Nebiyu Esaiyas. Todos los derechos reservados."
+  }
+}

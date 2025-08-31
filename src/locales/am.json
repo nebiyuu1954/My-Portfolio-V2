@@ -1,0 +1,149 @@
+{
+  "header": {
+    "websiteName": "NebiyuEsaiyas.com",
+    "projects": "ፕሮጀክቶች",
+    "experience": "ልምድ",
+    "skills": "ችሎታዎች",
+    "contact": "እኔን ያግኙ"
+  },
+  "hero": {
+    "greeting": "ሰላም፣",
+    "name": "እኔ ነቢዩ ነኝ",
+    "text": "ሰላም፣ እኔ የድር ገንቢ እና የ UI/UX ዲዛይነር ተልእኮ ያለኝ ሲሆን በ React እና Django ላይ ልዩ ችሎታ አለኝ።",
+    "button": "ሪዝሜ ተመልከት"
+  },
+  "projects": {
+    "title": "ፕሮጀክቶች",
+    "buttons": {
+      "all": "ሁሉም",
+      "react": "React",
+      "django": "Django"
+    },
+    "projects": [
+      {
+        "name": "የግል ፖርትፎሊዮ ድር ጣቢያ v2",
+        "description": "በ React እና Vite የተገነባ ዘመናዊ ፖርትፎሊዮ ድር ጣቢያ።",
+        "alt": "የ React ፖርትፎሊዮ ቅጽበታዊ ፎቶ",
+        "tech": "react",
+        "image": "/assets/project-images/react/portfolio-2/v2.png",
+        "projectLink": "https://nebiyu-esaiyas.vercel.app/",
+        "codeLink": "https://github.com/nebiyuu1954/My-Portfolio",
+        "docLink": "https://github.com/nebiyuu1954/My-Portfolio/blob/main/README.md",
+        "details": [
+          "የቴክኖሎጂ ውህድ፡ React፣ Vite፣ CSS፣ JavaScript",
+          "ሚና፡ የፊት-መጨረሻ ገንቢ",
+          "ጊዜ፡ 1 ሳምንት",
+          "ባህሪያት፡ ምላሽ ሰጪ ዲዛይን፣ ባለብዙ ቋንቋ ድጋፍ፣ ብርሃን እና ጨለማ ሁነታ ድጋፍ ተግባራዊ አድርጌያለሁ፣ ለማረጋገጫ formik እና yup ተጠቅሜያለሁ፣ ለመላክ Email Js ተጠቅሜያለሁ፣ ወደ Vercel ተሰራጭቷል"
+        ]
+      },
+      {
+        "name": "የግል ፖርትፎሊዮ ድር ጣቢያ v1",
+        "description": "በ React እና Vite የተገነባ ዘመናዊ ፖርትፎሊዮ ድር ጣቢያ።",
+        "alt": "የ React ፖርትፎሊዮ ቅጽበታዊ ፎቶ",
+        "tech": "react",
+        "image": "/assets/project-images/react/portfolio-1/v1.png",
+        "projectLink": "https://nebiyu-esaiyas.vercel.app/",
+        "codeLink": "https://github.com/nebiyuu1954/My-Portfolio",
+        "docLink": "https://github.com/nebiyuu1954/My-Portfolio/blob/main/README.md",
+        "details": [
+          "የቴክኖሎጂ ውህድ፡ React፣ Vite፣ CSS፣ JavaScript",
+          "ሚና፡ የፊት-መጨረሻ ገንቢ",
+          "ጊዜ፡ 1 ሳምንት",
+          "ባህሪያት፡ ምላሽ ሰጪ ዲዛይን፣ ተግባራዊ ችሎታዎች ስላይደር ተግባራዊ አድርጌያለሁ፣ ለማረጋገጫ formik እና yup ተጠቅሜያለሁ፣ ለመላክ Email Js ተጠቅሜያለሁ፣ ወደ Vercel ተሰራጭቷል"
+        ]
+      },
+
+      {
+        "name": "የቴሌግራም ቦት ልማት (Django)",
+        "description": "በ Django የተገነባ የቴሌግራም ቡድን ቁጥጥር እና ክፍያ ቦት ከክፍያ ውህደት ጋር።",
+        "alt": "የ Django ቦት ቅጽበታዊ ፎቶ",
+        "tech": "django",
+        "image": "/assets/project-images/django/telegram-bot/bot.jpg",
+        "projectLink": "https://github.com/nebiyuu1954/",
+        "codeLink": "https://github.com/nebiyuu1954/",
+        "docLink": "https://github.com/nebiyuu1954/",
+        "details": [
+          "የቴክኖሎጂ ውህድ፡ Django፣ Mongo DB፣ Chapa፣ Python፣ Telegram API",
+          "ሚና፡ የኋላ-መጨረሻ ገንቢ",
+          "ጊዜ፡ 3 ወራት",
+          "ባህሪያት፡ ለ Tigat ድር ጣቢያ የቴሌግራም ቡድን ቦት ተግባራዊ አድርጌያለሁ ከቡድን ገደቦች እና የማህበረሰብ መመሪያዎችን ለመጠበቅ ህጎች ጋር፣ ለማህበረሰብ ክፍያ ከ Chapa ኤፒአይ ጋር የክፍያ ውህደት፣ ለስኬታማ ክፍያ በይነገጽ ከኛ Django ሰርቨር የ html/css/js መልከ ለተጠቃሚው የቴሌግራም ውስጥ የድር መተግበሪያ ተግባራዊ አድርጌያለሁ፣ ለክፍሎች የፈተና ክፍሎችን ተግባራዊ አድርጌያለሁ"
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "title": "ልምድ",
+    "companies": [
+      {
+        "name": "Conquer Agency (Tigat Website)",
+        "jobs": [
+          {
+            "title": "የ Python Django ገንቢ (ተለማማጅ)",
+            "duration": "04/2024 - 06/2024",
+            "qa": [
+              {
+                "question": "በ Conquer Agency (Tigat Website) ያለዎት ዋና ሚና ምን ነበር?",
+                "answer": "የኋላ-መጨረሻ Django ገንቢ ሆኜ አገልግያለሁ፣ ለቡድን አስተዳደር እና ለማህበረሰብ ክፍያ ጠንካራ፣ ሊሰፋ የሚችል እና ቀልጣፋ የኋላ-መጨረሻ ስርዓት ገንብቻለሁ።"
+              },
+              {
+                "question": "የትኞቹን ቴክኖሎጂዎች ተጠቅመዋል?",
+                "answer": "በዋናነት Django፣ Python እና ለውሂብ ማከማቻ MongoDB ተጠቅሜያለሁ።"
+              },
+              {
+                "question": "ዋና ኃላፊነቶችዎ ምን ነበሩ?",
+                "answer": "ከቴሌግራም ኤፒአይ ጋር የሚዋሃዱ የ Python ክፍሎችን ተግባራዊ አድርጌያለሁ፣ የቡድን መመሪያ ህጎችን ፈጠርኩ፣ ለክፍያ ከ Chapa ጋር ተዋህዶ፣ የ pytest ፈተና ክፍሎችን ጽፌያለሁ።"
+              },
+              {
+                "question": "ዋና ስኬትዎ ምን ነበር?",
+                "answer": "ከቡድን ጋር በመተባበር ለህዝብ ጥቅም የሚውል ነገር በተሳካ ሁኔታ ገንብቻለሁ።"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "DAF ICT",
+        "jobs": [
+          {
+            "title": "ሙሉ-ተኮር ገንቢ (ተለማማጅ)",
+            "duration": "ነሐሴ 2025 - አሁን",
+            "qa": [
+              {
+                "question": "በ DAF ICT ያለዎት ሚና ምን ነበር?",
+                "answer": "ሙሉ-ተኮር ገንቢ ሆኜ ሰርቻለሁ፣ የመንግሥት ፕሮጀክቶችን በመተባበር እና በመገንባት።"
+              },
+              {
+                "question": "የትኞቹ ቴክኖሎጂዎች ተሳትፈዋል?",
+                "answer": "React፣ Angular፣ TypeScript፣ SQL እና ለኤፒአይ ልማት .NET Core ተጠቅሜያለሁ።"
+              },
+              {
+                "question": "የትኞቹን ተግባራት አስተናግደዋል?",
+                "answer": "የፊት-መጨረሻን ከኋላ-መጨረሻ አገልግሎቶች ጋር አዋህጄያለሁ፣ በ React ተጠቅሜ ነጠላ ምርት ድር ጣቢያ ፈጠርኩ፣ የውሃ ክፍያ ሥርዓትን ወደ ዘመናዊ የድር መተግበሪያዎች ለመቀየር ተባብሬያለሁ።"
+              },
+              {
+                "question": "ዋና ስኬትዎ ምን ነበር?",
+                "answer": "የመጀመሪያውን የስማርት ውሃ ሜትር ምርት ማስጀመሪያ ድር ጣቢያ መገንባት"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "title": "እውቂያ",
+    "workTogether": "እንስራ እንግባባ",
+    "message": "በፈጠራ ፕሮጀክቶች ላይ ለመተባበር ተደስቻለሁ! እድሎችን ወይም ሀሳቦችን ለመወያየት ነፃነት ይሰማዎ።",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "getInTouch": "እኔን ያግኙ",
+    "firstName": "የመጀመሪያ ስም",
+    "lastName": "የአባት ስም",
+    "email": "የእርስዎ ኢሜል",
+    "subject": "ርዕሰ ጉዳይ",
+    "submit": "መልእክት ላክ"
+  },
+  "footer": {
+    "copyright": "© {year} ነቢዩ እሳይያስ። ሁሉም መብቶች የተጠበቁ ናቸው።"
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "header": {
+    "websiteName": "NebiyuEsaiyas.com",
+    "projects": "Projects",
+    "experience": "Experience",
+    "skills": "Skills",
+    "contact": "Contact Me"
+  },
+  "hero": {
+    "greeting": "HI,",
+    "name": "I'M Nebiyu",
+    "text": "Hello, I'm Web Developer and aspiring Ui/Ux Designer that specializes in React and Django",
+    "button": "View Resume"
+  },
+  "projects": {
+    "title": "Projects",
+    "buttons": {
+      "all": "All",
+      "react": "React",
+      "django": "Django"
+    },
+    "projects": [
+      {
+        "name": "Personal Portfolio Website v2",
+        "description": "A modern portfolio website built with React and Vite.",
+        "alt": "React portfolio screenshot",
+        "tech": "react",
+        "image": "/assets/project-images/react/portfolio-2/v2.png",
+        "projectLink": "https://nebiyu-esaiyas.vercel.app/",
+        "codeLink": "https://github.com/nebiyuu1954/My-Portfolio",
+        "docLink": "https://github.com/nebiyuu1954/My-Portfolio/blob/main/README.md",
+        "details": [
+          "Tech Stack: React, Vite, CSS, JavaScript",
+          "Role: Front-End Developer",
+          "Duration: 1 week",
+          "Features: Responsive design, multi language support, implemented light and dark mode support,used formik and yup for validation used Email Js for submition, Deployed to Vercel"
+        ]
+      },
+      {
+        "name": "Personal Portfolio Website v1",
+        "description": "A modern portfolio website built with React and Vite.",
+        "alt": "React portfolio screenshot",
+        "tech": "react",
+        "image": "/assets/project-images/react/portfolio-1/v1.png",
+        "projectLink": "https://nebiyu-esaiyas.vercel.app/",
+        "codeLink": "https://github.com/nebiyuu1954/My-Portfolio",
+        "docLink": "https://github.com/nebiyuu1954/My-Portfolio/blob/main/README.md",
+        "details": [
+          "Tech Stack: React, Vite, CSS, JavaScript",
+          "Role: Front-End Developer",
+          "Duration: 1 week",
+          "Features: Responsive design, Implemented Interactive Skills Slider,used formik and yup for validation used Email Js for submition, Deployed to Vercel"
+        ]
+      },
+      {
+        "name": "Telegram Bot Development (Django)",
+        "description": "A Telegram group control and payment bot built with django with payment integration.",
+        "alt": "Django e-commerce screenshot",
+        "tech": "django",
+        "image": "/assets/project-images/django/telegram-bot/bot.jpg",
+        "projectLink": "https://github.com/nebiyuu1954/",
+        "codeLink": "https://github.com/nebiyuu1954/",
+        "docLink": "https://github.com/nebiyuu1954/",
+        "details": [
+          "Tech Stack: Django, Mongo DB, Chapa, python, Telegram API",
+          "Role: Backend Developer",
+          "Duration: 3 months",
+          "Features: Implemented a Telegram Group Bot for Tigat website using Django that has group restrictions and rules for keeping Community Guidelines, s payment integration with Chapa's Api for Community payment, Implemented Web app in telegram for the user fetching html/css/js from our django server for succesful payement interface, Implemented the test clases for the classes"
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "companies": [
+      {
+        "name": "Conquer Agency(Tigat Website)",
+        "jobs": [
+          {
+            "title": "Python Django Developer (Internship)",
+            "duration": "04/2024 - 06/2024",
+            "qa": [
+              {
+                "question": "What was your primary role at Conquer Agency(Tigat Website)?",
+                "answer": "I served as a Back-End Django Developer, robust , scalable and efficient backend system for group management and community payment."
+              },
+              {
+                "question": "What technologies did you use?",
+                "answer": "I primarily used Django, Python, with Mongodb for database storage."
+              },
+              {
+                "question": "What were your key responsibilities?",
+                "answer": "I implemented python classes that merged with telegram's api, created group guideline rules, integrated with chapa for payment, wrote pytest test classes"
+              },
+              {
+                "question": "What was a major achievement?",
+                "answer": "I successfully collabrated with a team and developed something that will be used by the public."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "DAF ICT",
+        "jobs": [
+          {
+            "title": "Full-Stack Developer(Internship)",
+            "duration": "Aug 2025 - Present",
+            "qa": [
+              {
+                "question": "What was your role at DAF ICT?",
+                "answer": "I worked as a Full-Stack Developer, collabrating and building goverment projects."
+              },
+              {
+                "question": "What technologies were involved?",
+                "answer": "I used React, Angular, TypeScript, SQL, and .NET Core for API development."
+              },
+              {
+                "question": "What tasks did you handle?",
+                "answer": "I integrated front-end with backend services, created a single product website using react, collabrated on turning legacy water billing system into modern web apps."
+              },
+              {
+                "question": "What was a key accomplishment?",
+                "answer": "Developing the website for first smart water meter product launch"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "workTogether": "Let's Work Together",
+    "message": "I'm excited to collaborate on innovative projects! Feel free to reach out to discuss opportunities or ideas.",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "getInTouch": "Get in Touch",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Your Email",
+    "subject": "Subject",
+    "submit": "Submit Message"
+  },
+  "footer": {
+    "copyright": "© {year} Nebiyu Esaiyas. All rights reserved."
+  }
+}

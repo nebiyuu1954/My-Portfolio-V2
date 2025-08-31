@@ -1,0 +1,228 @@
+.experience {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  padding: var(--padding-base);
+  min-height: 100vh;
+  box-sizing: border-box;
+  margin-top: 10rem;
+}
+
+.experience__container {
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.experience__timeline {
+  text-align: center;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.experience__timeline--centered {
+  max-width: 300px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.experience__timeline--shifted {
+  flex: 0.2;
+  min-width: 150px;
+  margin: 0;
+}
+
+.experience__title {
+  font-size: calc(2.5rem + 1vw);
+  font-weight: 600;
+  font-family: var(--font-family);
+  margin-bottom: var(--padding-base);
+}
+
+.experience__line {
+  position: relative;
+  height: 100%;
+  margin: 0 auto;
+  width: 6px;
+  background-color: var(--accent-color);
+}
+
+.experience__point {
+  position: relative;
+  margin-top: 7rem;
+  margin-bottom: 18rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.experience__point-circle {
+  width: 12px;
+  height: 12px;
+  background-color: var(--accent-color);
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: background-color 0.3s ease;
+}
+
+.experience__point-name {
+  font-size: calc(0.7rem + 0.5vw);
+  font-family: var(--font-family);
+  font-weight: 1000;
+  color: var(--text-color);
+  transition: color 0.3s ease;
+  margin-bottom: 4rem;
+}
+
+.experience__point:hover .experience__point-name {
+  /* color: var(--accent-color); */
+}
+
+.experience__point:hover .experience__point-circle {
+  background-color: var(--primary-color);
+}
+
+.experience__point--active .experience__point-name {
+  color: var(--accent-color);
+}
+
+.experience__point--active .experience__point-circle {
+  background-color: var(--primary-color);
+}
+
+.experience__details {
+  flex: 0;
+  min-width: 0;
+  padding: 0;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.experience__details--open {
+  flex: 0.8;
+  min-width: 200px;
+  padding: 0 2rem;
+  opacity: 1;
+  animation: slideIn 0.5s ease-out forwards;
+}
+
+.experience__accordion {
+  width: 100%;
+  margin-bottom: 1rem;
+  margin-top: 18rem;
+}
+
+.experience__accordion-job-title {
+  font-size: calc(0.8rem + 0.6vw);
+  font-family: var(--font-family);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.experience__accordion-duration {
+  font-size: calc(0.6rem + 0.4vw);
+  font-family: var(--font-family);
+  margin-bottom: 1rem;
+}
+
+.experience__accordion-items {
+  width: 100%;
+}
+
+.experience__accordion-item {
+  margin-bottom: 0.5rem;
+}
+
+.experience__accordion-title {
+  background-color: var(--accent-color);
+  color: var(--background-color);
+  padding: calc(var(--padding-base) * 0.5) 1rem;
+  border: none;
+  border-radius: var(--border-radius);
+  font-size: calc(0.6rem + 0.4vw);
+  font-family: var(--font-family);
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.experience__accordion-title:hover {
+  background-color: var(--accent-color);
+}
+
+.experience__accordion-title h4 {
+  margin: 0;
+}
+
+.experience__accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 1rem;
+  background-color: var(--background-color);
+  border-radius: var(--border-radius);
+  font-size: calc(0.6rem + 0.4vw);
+  font-family: var(--font-family);
+  transition: all 0.3s ease;
+}
+
+.experience__accordion-content.animate-contentIn {
+  max-height: 200px;
+  padding: 1rem;
+  animation: contentIn 0.3s ease-out forwards;
+}
+
+.experience__close-panel {
+  display: none;
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+.animate-slideIn {
+  animation: slideIn 0.3s ease-out forwards;
+}
+
+@keyframes contentIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+    max-height: 0;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    max-height: 200px;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(20px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
