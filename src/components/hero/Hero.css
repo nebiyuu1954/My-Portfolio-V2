@@ -110,11 +110,13 @@
     text-align: center;
     padding-bottom: 1rem;
     min-width: 100%;
+    margin-bottom: 1rem;
   }
   .hero__right {
     text-align: center;
     padding-bottom: 1rem;
     min-width: 100%;
+    margin-bottom: 12rem;
   }
   .hero__greeting {
     font-size: calc(var(--font-size-base) + 12px);
