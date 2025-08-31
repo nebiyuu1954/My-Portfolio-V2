@@ -1,68 +1,87 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  --background-color: #ffffff;
+  --text-color: #000000;
+  --primary-color: #000000;
+  --secondary-color: #6c757d;
+  --accent-color: grey;
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-size-base: 16px;
+  --padding-base: 1rem;
+  --border-radius: 4px;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+[data-theme="dark"] {
+  --background-color: #000000;
+  --text-color: #ffffff;
+  --primary-color: #ffffff;
+  --secondary-color: #adb5bd;
+  --accent-color: #106919;
 }
-a:hover {
-  color: #535bf2;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  line-height: 1.6;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-color);
+  font-weight: 600;
+  margin-bottom: var(--padding-base);
+}
+
+p {
+  margin-bottom: var(--padding-base);
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--accent-color);
 }
 
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  border: none;
+  padding: calc(var(--padding-base) * 0.5) var(--padding-base);
+  border-radius: var(--border-radius);
+  font-size: var(--font-size-base);
   cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  transition: background-color 0.2s ease;
 }
 
-@media (prefers-color-scheme: light) {
+button:hover {
+  background-color: var(--accent-color);
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--padding-base);
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    padding: calc(var(--padding-base) * 0.5);
+  }
   :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
+    --font-size-base: 14px;
   }
 }
