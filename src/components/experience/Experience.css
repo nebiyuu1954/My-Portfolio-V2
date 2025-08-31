@@ -226,3 +226,12 @@
     transform: translateX(0) scale(1);
   }
 }
+
+
+@media (max-width: 450px) {
+
+  .experience__point {
+    margin-top: 9rem;
+  }
+
+}
