@@ -74,6 +74,7 @@ function Experience() {
               >
                 <span className="experience__point-circle"></span>
                 <span className="experience__point-name">{company.name}</span>
+                <span className="experience__tooltip">Click on the dot for more</span>
               </div>
             ))}
           </div>

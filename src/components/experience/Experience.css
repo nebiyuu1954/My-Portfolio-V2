@@ -80,9 +80,30 @@
   margin-bottom: 4rem;
 }
 
-.experience__point:hover .experience__point-name {
-  /* color: var(--accent-color); */
+.experience__tooltip {
+  position: absolute;
+  bottom: 140%; /* position above the dot */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--accent-color);
+  color: var(--background-color);
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: var(--font-family);
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease;
+  pointer-events: none; /* so it doesn't block hover */
+  z-index: 10;
 }
+
+.experience__point:hover .experience__tooltip {
+  opacity: 1;
+  visibility: visible;
+}
+
 
 .experience__point:hover .experience__point-circle {
   background-color: var(--primary-color);
