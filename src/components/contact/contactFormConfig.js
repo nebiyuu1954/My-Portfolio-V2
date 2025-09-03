@@ -28,10 +28,10 @@ export const getFormConfig = () => ({
   onSubmit: (values, { resetForm }) => {
     emailjs
       .send(
-        "service_6bogm4i", // EmailJS service ID
-        "template_8xsdgjq", // EmailJS template ID
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         values,
-        "Bz_WQjFCldhtOMpOy" //  EmailJS public key
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       )
       .then(() => {
         alert("Message sent successfully!");
