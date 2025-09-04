@@ -141,7 +141,7 @@
     "lastName": "የአባት ስም",
     "email": "የእርስዎ ኢሜል",
     "subject": "ርዕሰ ጉዳይ",
-    "submit": "መልእክት ላክ"
+    "successMessage": "ለኢሜልዎ እናመሰግናለን"
   },
   "footer": {
     "copyright": "© {year} ነቢዩ እሳይያስ። ሁሉም መብቶች የተጠበቁ ናቸው።"

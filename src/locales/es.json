@@ -141,7 +141,7 @@
     "lastName": "Apellido",
     "email": "Tu Correo Electrónico",
     "subject": "Asunto",
-    "submit": "Enviar Mensaje"
+    "successMessage": "Gracias por el correo"
   },
   "footer": {
     "copyright": "© {year} Nebiyu Esaiyas. Todos los derechos reservados."

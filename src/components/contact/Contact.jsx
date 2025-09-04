@@ -4,13 +4,42 @@ import ContactForm from './ContactForm';
 import { useContext, useEffect, useRef, useState } from 'react';
 import LanguageContext from '../../context/LanguageContext';
 import './contact.css';
+import ContactModal from './ContactModal';
 
 const Contact = () => {
   const { translations } = useContext(LanguageContext);
   const contactRef = useRef(null);
   const [isInViewport, setIsInViewport] = useState(false);
-  const formik = useFormik(getFormConfig());
-
+  // const formik = useFormik(getFormConfig());
+const [modalState, setModalState] = useState({ isOpen: false, message: '' });
+const formik = useFormik({
+  ...getFormConfig(),
+  onSubmit: async (values, actions) => {
+    try {
+      await getFormConfig().onSubmit(values, {
+        ...actions,
+        setStatus: (status) => {
+          setModalState({
+            isOpen: true,
+            message: status.success
+              ? translations.contact?.successMessage || status.message
+              : translations.contact?.errorMessage || status.message,
+          });
+          actions.setStatus(status);
+        },
+      });
+    } catch (error) {
+      console.error('Submission error:', error);
+      setModalState({
+        isOpen: true,
+        message: translations.contact?.errorMessage || 'An unexpected error occurred.',
+      });
+    }
+  },
+});
+    const handleCloseModal = () => {
+      setModalState({ isOpen: false, message: '' });
+    };
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
@@ -22,7 +51,6 @@ const Contact = () => {
     if (contactRef.current) {
       observer.observe(contactRef.current);
     }
-
     return () => {
       if (contactRef.current) {
         observer.unobserve(contactRef.current);
@@ -99,6 +127,12 @@ const Contact = () => {
             </h3>
             <ContactForm formik={formik} translations={translations.contact} isInViewport={isInViewport} />
           </div>
+          <ContactModal
+            isOpen={modalState.isOpen}
+            onClose={handleCloseModal}
+            message={modalState.message}
+            translations={translations.contact}
+          />
         </div>
       </div>
     </section>

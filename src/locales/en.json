@@ -139,8 +139,7 @@
     "firstName": "First Name",
     "lastName": "Last Name",
     "email": "Your Email",
-    "subject": "Subject",
-    "submit": "Submit Message"
+    "subject": "Subject"
   },
   "footer": {
     "copyright": "© {year} Nebiyu Esaiyas. All rights reserved."
