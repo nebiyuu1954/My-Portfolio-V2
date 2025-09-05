@@ -26,9 +26,9 @@
         "alt": "React portfolio screenshot",
         "tech": "react",
         "image": "/assets/project-images/react/portfolio-2/v2.png",
-        "projectLink": "https://nebiyu-esaiyas.vercel.app/",
-        "codeLink": "https://github.com/nebiyuu1954/My-Portfolio",
-        "docLink": "https://github.com/nebiyuu1954/My-Portfolio/blob/main/README.md",
+        "projectLink": "https://nebiyuesaiyas.vercel.app/",
+        "codeLink": "https://github.com/nebiyuu1954/My-Portfolio-V2",
+        "docLink": "https://github.com/nebiyuu1954/My-Portfolio-V2/blob/main/README.md",
         "details": [
           "Tech Stack: React, Vite, CSS, JavaScript",
           "Role: Front-End Developer",
@@ -65,7 +65,7 @@
           "Tech Stack: Django, Mongo DB, Chapa, python, Telegram API",
           "Role: Backend Developer",
           "Duration: 3 months",
-          "Features: Implemented a Telegram Group Bot for Tigat website using Django that has group restrictions and rules for keeping Community Guidelines, s payment integration with Chapa's Api for Community payment, Implemented Web app in telegram for the user fetching html/css/js from our django server for succesful payement interface, Implemented the test clases for the classes"
+          "Features: Implemented a Telegram Group Bot for Tigat website using Django that has group restrictions and rules for keeping Community Guidelines, payment integration with Chapa's Api for Community payment, Implemented Web app in telegram for the user fetching html/css/js from our django server for succesful payement interface, Implemented the test clases for the classes"
         ]
       }
     ]
