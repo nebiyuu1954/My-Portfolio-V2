@@ -9,7 +9,7 @@
   "hero": {
     "greeting": "HI,",
     "name": "I'M Nebiyu",
-    "text": "Hello, Im Web Developer and aspiring Ui/Ux Designer that specializes in React and Django",
+    "text": "Hello, I'm a Full-Stack Web Developer passionate about building secure, scalable applications with React, Django, and .NET.",
     "button": "View Resume"
   },
   "projects": {
@@ -17,9 +17,42 @@
     "buttons": {
       "all": "All",
       "react": "React",
-      "django": "Django"
+      "django": "Django",
+      "dotnet": ".NET"
     },
     "projects": [
+      {
+        "name": "UNICEF-Supported Water Billing System",
+        "description": "A government water billing and customer management system built with .NET and Angular.",
+        "alt": "Billing system screenshot",
+        "tech": "dotnet",
+        "image": "/assets/project-images/dotnet/BSS/BSS.jpg",
+        "projectLink": "",
+        "codeLink": "",
+        "docLink": "",
+        "details": [
+          "Tech Stack: .NET 8, Angular 16, SQL Server, Entity Framework Core, JWT",
+          "Role: Full-Stack Developer",
+          "Duration: 6 months",
+          "Features: Automated bill calculation, PDF receipt generation, secure APIs with JWT authentication, Angular dashboards with charts, deployed on IIS with SSL configuration"
+        ]
+      },
+      {
+        "name": "Temp AI Internship Matching Platform",
+        "description": "An AI-powered internship matching platform for Ethiopia with resume scoring and role-based access.",
+        "alt": "AI internship platform screenshot",
+        "tech": "react",
+        "image": "/assets/project-images/react/Temp Ai/TempAi.jpg",
+        "projectLink": "",
+        "codeLink": "",
+        "docLink": "",
+        "details": [
+          "Tech Stack: React, Tailwind CSS, Chart.js, Django Rest Framework, OpenRouter API",
+          "Role: Lead Full-Stack Engineer",
+          "Duration: 4 months",
+          "Features: Automated resume scoring, modular backend with RBAC, responsive frontend with data visualizations, JWT authentication, Swagger API docs"
+        ]
+      },
       {
         "name": "Personal Portfolio Website v2",
         "description": "A modern portfolio website built with React and Vite.",
@@ -30,10 +63,10 @@
         "codeLink": "https://github.com/nebiyuu1954/My-Portfolio-V2",
         "docLink": "https://github.com/nebiyuu1954/My-Portfolio-V2/blob/main/README.md",
         "details": [
-          "Tech Stack: React, Vite, CSS, JavaScript",
+          "Tech Stack: React, Vite, Tailwind CSS, TypeScript, EmailJS, Formik & Yup",
           "Role: Front-End Developer",
           "Duration: 1 week",
-          "Features: Responsive design, multi language support, implemented light and dark mode support,used formik and yup for validation used Email Js for submition, Deployed to Vercel"
+          "Features: Responsive design, multilingual support, light/dark mode, secure contact form validation, deployed to Vercel"
         ]
       },
       {
@@ -49,23 +82,23 @@
           "Tech Stack: React, Vite, CSS, JavaScript",
           "Role: Front-End Developer",
           "Duration: 1 week",
-          "Features: Responsive design, Implemented Interactive Skills Slider,used formik and yup for validation used Email Js for submition, Deployed to Vercel"
+          "Features: Responsive design, interactive skills slider, contact form validation with Formik & Yup, EmailJS integration, deployed to Vercel"
         ]
       },
       {
         "name": "Telegram Bot Development (Django)",
-        "description": "A Telegram group control and payment bot built with django with payment integration.",
-        "alt": "Django e-commerce screenshot",
+        "description": "A Telegram group control and payment bot built with Django and integrated with Chapa API.",
+        "alt": "Django bot screenshot",
         "tech": "django",
         "image": "/assets/project-images/django/telegram-bot/bot.jpg",
         "projectLink": "https://github.com/nebiyuu1954/",
         "codeLink": "https://github.com/nebiyuu1954/",
         "docLink": "https://github.com/nebiyuu1954/",
         "details": [
-          "Tech Stack: Django, Mongo DB, Chapa, python, Telegram API",
+          "Tech Stack: Django, MongoDB, Chapa API, Python, Telegram API",
           "Role: Backend Developer",
           "Duration: 3 months",
-          "Features: Implemented a Telegram Group Bot for Tigat website using Django that has group restrictions and rules for keeping Community Guidelines, payment integration with Chapa's Api for Community payment, Implemented Web app in telegram for the user fetching html/css/js from our django server for succesful payement interface, Implemented the test clases for the classes"
+          "Features: Group management and restrictions, payment integration with Chapa API, Telegram Web App interface, webhook synchronization, Python test classes"
         ]
       }
     ]
@@ -74,54 +107,54 @@
     "title": "Experience",
     "companies": [
       {
-        "name": "Conquer Agency(Tigat Website)",
+        "name": "Conquer Agency (Tigat Website)",
         "jobs": [
           {
-            "title": "Python Django Developer (Internship)",
-            "duration": "04/2024 - 06/2024",
+            "title": "Backend & Bot Developer (Internship)",
+            "duration": "04/2024 - 07/2024",
             "qa": [
               {
-                "question": "What was your primary role at Conquer Agency(Tigat Website)?",
-                "answer": "I served as a Back-End Django Developer, robust , scalable and efficient backend system for group management and community payment."
+                "question": "What was your primary role?",
+                "answer": "I served as a Backend Django Developer, building scalable systems for group management and community payments."
               },
               {
                 "question": "What technologies did you use?",
-                "answer": "I primarily used Django, Python, with Mongodb for database storage."
+                "answer": "Django, Python, MongoDB, Chapa API, Telegram API."
               },
               {
                 "question": "What were your key responsibilities?",
-                "answer": "I implemented python classes that merged with telegram's api, created group guideline rules, integrated with chapa for payment, wrote pytest test classes"
+                "answer": "Developed Telegram bot logic, enforced group guidelines, integrated Chapa for payments, implemented webhooks, and wrote test classes."
               },
               {
                 "question": "What was a major achievement?",
-                "answer": "I successfully collabrated with a team and developed something that will be used by the public."
+                "answer": "Successfully collaborated with a team to deliver a bot used by the public."
               }
             ]
           }
         ]
       },
       {
-        "name": "DAF ICT",
+        "name": "DAFTech Social ICT Solutions",
         "jobs": [
           {
-            "title": "Full-Stack Developer(Internship)",
+            "title": "Full-Stack Web Developer",
             "duration": "Aug 2025 - Present",
             "qa": [
               {
-                "question": "What was your role at DAF ICT?",
-                "answer": "I worked as a Full-Stack Developer, collabrating and building goverment projects."
+                "question": "What was your role?",
+                "answer": "I worked as a Full-Stack Developer, building secure enterprise web applications for government clients."
               },
               {
                 "question": "What technologies were involved?",
-                "answer": "I used React, Angular, TypeScript, SQL, and .NET Core for API development."
+                "answer": ".NET 8, Angular, SQL Server, Entity Framework Core, JWT, IIS."
               },
               {
                 "question": "What tasks did you handle?",
-                "answer": "I integrated front-end with backend services, created a single product website using react, collabrated on turning legacy water billing system into modern web apps."
+                "answer": "Designed relational database schemas, exposed scalable RESTful APIs, implemented JWT authentication, and deployed production apps with SSL."
               },
               {
                 "question": "What was a key accomplishment?",
-                "answer": "Developing the website for first smart water meter product launch"
+                "answer": "Developing the UNICEF-supported government water billing system (Wuha Limat Billing Software)."
               }
             ]
           }
@@ -133,12 +166,12 @@
     "title": "Contact",
     "workTogether": "Let's Work Together",
     "message": "I'm excited to collaborate on innovative projects! Feel free to reach out to discuss opportunities or ideas.",
-    "github": "GitHub",
-    "linkedin": "LinkedIn",
+    "github": "https://github.com/nebiyuu1954",
+    "linkedin": "https://www.linkedin.com/in/nebiyu-esaiyas",
+    "email": "nebiyuesaiyas1954@gmail.com",
     "getInTouch": "Get in Touch",
     "firstName": "First Name",
     "lastName": "Last Name",
-    "email": "Your Email",
     "subject": "Subject"
   },
   "footer": {
