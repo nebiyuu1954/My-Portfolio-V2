@@ -163,20 +163,18 @@
     ]
   },
   "contact": {
-  "title": "Contact",
-  "workTogether": "Let's Work Together",
-  "message": "I'm excited to collaborate on innovative projects! Feel free to reach out to discuss opportunities or ideas.",
-  "links": {
-    "github": "https://github.com/nebiyuu1954",
-    "linkedin": "https://www.linkedin.com/in/nebiyu-esaiyas",
-    "email": "nebiyuesaiyas1954@gmail.com"
-  },
-  "form": {
+    "title": "Contact",
+    "workTogether": "Let's Work Together",
+    "message": "I'm excited to collaborate on innovative projects! Feel free to reach out to discuss opportunities or ideas.",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
     "getInTouch": "Get in Touch",
     "firstName": "First Name",
     "lastName": "Last Name",
     "email": "Your Email",
-    "subject": "Subject",
-    "message": "Message"
+    "subject": "Subject"
+  },
+  "footer": {
+    "copyright": "© {year} Nebiyu Esaiyas. All rights reserved."
   }
 }
